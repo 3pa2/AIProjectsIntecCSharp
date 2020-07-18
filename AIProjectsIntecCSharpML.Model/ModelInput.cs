@@ -6,36 +6,16 @@ namespace AIProjectsIntecCSharpML.Model
 {
     public class ModelInput
     {
-        [ColumnName("Date"), LoadColumn(0)]
-        public string Date { get; set; }
+        [ColumnName("Sentiment"), LoadColumn(0)]
+        public string Sentiment { get; set; }
 
 
-        [ColumnName("Open*"), LoadColumn(1)]
-        public float Open_ { get; set; }
+        [ColumnName("SentimentText"), LoadColumn(1)]
+        public string SentimentText { get; set; }
 
 
-        [ColumnName("High"), LoadColumn(2)]
-        public float High { get; set; }
-
-
-        [ColumnName("Low"), LoadColumn(3)]
-        public float Low { get; set; }
-
-
-        [ColumnName("Close**"), LoadColumn(4)]
-        public float Close__ { get; set; }
-
-
-        [ColumnName("Media Price"), LoadColumn(5)]
-        public float Media_Price { get; set; }
-
-
-        [ColumnName("Volume"), LoadColumn(6)]
-        public float Volume { get; set; }
-
-
-        [ColumnName("Market Cap"), LoadColumn(7)]
-        public float Market_Cap { get; set; }
+        [ColumnName("LoggedIn"), LoadColumn(2)]
+        public string LoggedIn { get; set; }
 
 
     }

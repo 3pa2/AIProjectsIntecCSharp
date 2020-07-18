@@ -12,17 +12,15 @@ namespace AIProjectsIntecCSharpML.ConsoleApp
             // Create single instance of sample data from first line of dataset for model input
             ModelInput sampleData = new ModelInput()
             {
-                Open_ = 9131.81F,
-                Market_Cap = 1.687104E+11F,
+                SentimentText = @"==RUDE== Dude, you are rude upload that carl picture back, or else.",
             };
 
             // Make a single prediction on the sample data and print results
             var predictionResult = ConsumeModel.Predict(sampleData);
 
-            Console.WriteLine("Using model to make single prediction -- Comparing actual High with predicted High from sample data...\n\n");
-            Console.WriteLine($"Open_: {sampleData.Open_}");
-            Console.WriteLine($"Market_Cap: {sampleData.Market_Cap}");
-            Console.WriteLine($"\n\nPredicted High: {predictionResult.Score}\n\n");
+            Console.WriteLine("Using model to make single prediction -- Comparing actual Sentiment with predicted Sentiment from sample data...\n\n");
+            Console.WriteLine($"SentimentText: {sampleData.SentimentText}");
+            Console.WriteLine($"\n\nPredicted Sentiment value {predictionResult.Prediction} \nPredicted Sentiment scores: [{String.Join(",", predictionResult.Score)}]\n\n");
             Console.WriteLine("=============== End of process, hit any key to finish ===============");
             Console.ReadKey();
         }

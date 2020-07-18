@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Primos", "Primos\Primos.csproj", "{619B3E89-4C27-4074-B87C-7B7E3A1F3CF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitCoinPricePredection", "BitCoinPricePredection\BitCoinPricePredection.csproj", "{55AAA6D1-9DB9-407F-BF6F-671B01F3E616}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitCoinPricePredection", "BitCoinPricePredection\BitCoinPricePredection.csproj", "{55AAA6D1-9DB9-407F-BF6F-671B01F3E616}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AIProjectsIntecCSharpML.Model", "AIProjectsIntecCSharpML.Model\AIProjectsIntecCSharpML.Model.csproj", "{EEA33A10-ED7D-40BE-B0A9-AB87F70CA533}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AIProjectsIntecCSharpML.ConsoleApp", "AIProjectsIntecCSharpML.ConsoleApp\AIProjectsIntecCSharpML.ConsoleApp.csproj", "{54A2AAD4-2621-4DE2-9FAC-E8EEB9796286}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sentimentBased", "sentimentBased\sentimentBased.csproj", "{8D7F7BED-39B1-4A83-9E1A-8F3BE694F46D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{54A2AAD4-2621-4DE2-9FAC-E8EEB9796286}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54A2AAD4-2621-4DE2-9FAC-E8EEB9796286}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54A2AAD4-2621-4DE2-9FAC-E8EEB9796286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D7F7BED-39B1-4A83-9E1A-8F3BE694F46D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D7F7BED-39B1-4A83-9E1A-8F3BE694F46D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D7F7BED-39B1-4A83-9E1A-8F3BE694F46D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D7F7BED-39B1-4A83-9E1A-8F3BE694F46D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

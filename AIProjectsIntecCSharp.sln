@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIProjectsIntecCSharp", "AIProjectsIntecCSharp\AIProjectsIntecCSharp.csproj", "{A5923733-5073-451F-8BED-66DF5CFEAEB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Primos", "Primos\Primos.csproj", "{619B3E89-4C27-4074-B87C-7B7E3A1F3CF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Primos", "Primos\Primos.csproj", "{619B3E89-4C27-4074-B87C-7B7E3A1F3CF6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitCoinPricePredection", "BitCoinPricePredection\BitCoinPricePredection.csproj", "{55AAA6D1-9DB9-407F-BF6F-671B01F3E616}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A5923733-5073-451F-8BED-66DF5CFEAEB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A5923733-5073-451F-8BED-66DF5CFEAEB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A5923733-5073-451F-8BED-66DF5CFEAEB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A5923733-5073-451F-8BED-66DF5CFEAEB3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{619B3E89-4C27-4074-B87C-7B7E3A1F3CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{619B3E89-4C27-4074-B87C-7B7E3A1F3CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{619B3E89-4C27-4074-B87C-7B7E3A1F3CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{619B3E89-4C27-4074-B87C-7B7E3A1F3CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55AAA6D1-9DB9-407F-BF6F-671B01F3E616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55AAA6D1-9DB9-407F-BF6F-671B01F3E616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55AAA6D1-9DB9-407F-BF6F-671B01F3E616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55AAA6D1-9DB9-407F-BF6F-671B01F3E616}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
